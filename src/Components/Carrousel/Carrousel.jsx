@@ -6,6 +6,7 @@ const Carrousel = () => {
   return (
     <>
     <h1> Carrousel imagenes!!</h1>
+    <h1> Carrousel imagenes!!</h1>
     </>
   )
 }
