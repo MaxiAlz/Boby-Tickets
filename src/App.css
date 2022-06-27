@@ -1,3 +1,7 @@
+:root {
+  --main-oranger: #FF7600;
+}
 .App {
   text-align: center;
+  font-family: 'Anek Latin', sans-serif;
 }

@@ -1,0 +1,22 @@
+:root {
+    --main-oranger: #FF7600;
+  }
+
+.hover-nav:hover{
+    background-color: var(--main-oranger);
+    border-radius: 0.5rem;
+    transition-duration: 0.5s;
+    transition-timing-function: 1s; 
+}
+
+.dropdown-item:hover{
+  background-color: var(--main-oranger);
+  color: white;
+}
+
+/* media querys */
+@media (max-width: 1050px) {
+  .eventos-zona {
+    display: none;
+  }
+}
