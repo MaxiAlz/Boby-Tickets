@@ -8,3 +8,15 @@
     transition-duration: 0.5s;
     transition-timing-function: 1s; 
 }
+
+.dropdown-item:hover{
+  background-color: var(--main-oranger);
+  color: white;
+}
+
+/* media querys */
+@media (max-width: 1050px) {
+  .eventos-zona {
+    display: none;
+  }
+}
