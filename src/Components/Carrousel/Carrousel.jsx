@@ -4,7 +4,9 @@ import React from 'react'
 import './Carrousel.css'
 const Carrousel = () => {
   return (
-    <div>Carrousel</div>
+    <>
+    <h1> Carrousel imagenes!!</h1>
+    </>
   )
 }
 
