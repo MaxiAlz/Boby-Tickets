@@ -23,3 +23,9 @@
 .btn-crear-cuenta:hover{
     background-color: white;
 }
+
+@media (max-width: 992px) {
+    .btn-crear-cuenta{
+        margin-top: 0.5rem;
+    }
+  }

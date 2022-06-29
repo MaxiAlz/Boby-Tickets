@@ -14,9 +14,22 @@
   color: white;
 }
 
-/* media querys */
-@media (max-width: 1050px) {
-  .eventos-zona {
-    display: none;
-  }
+.boton-lupa{
+  position: relative;
+  width: 3.4rem;
+  height: 2.5rem;
 }
+
+.lupa-icon-2{
+  position: absolute;
+  color: rgb(149, 149, 149);
+  bottom: 20%;
+}
+
+.menu-categorias{
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: solid var(--main-oranger);
+  /* background-color: var(--main-oranger); */
+}
+
