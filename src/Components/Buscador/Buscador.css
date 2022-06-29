@@ -1,29 +1,29 @@
 :root {
     --main-oranger: #FF7600;
-  }
+}
 
-  .position-buscador{
-      position: relative;
-      top: 0;
-  }
-.form-control{
-   /* position: absolute; */
-    width: 15rem;
+.position-buscador {
+    position: relative;
+    top: 0;
+}
+
+.formulario-container{
+    width: 100%;
+
+} 
+.form-control {
     background-color: black;
     border-color: white
 }
 
-.form-control:focus{
+.form-control:focus {
     border: solid var(--main-oranger);
     box-shadow: 0.3rem var(--main-oranger);
 }
 
-.bi-search{
+.bi-search {
     position: absolute;
     left: 1rem;
     width: auto;
     color: white;
-    
 }
-
-
