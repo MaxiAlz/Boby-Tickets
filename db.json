@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "maximiliano",
+      "author": "asdasdasd",
+      "image": {
+        "banner-1": "http//"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  
+  "categorias": [
+    "Teatro",
+    "Recitales",
+    "Fiestas",
+    "Conferencias"
+  ],
+
+  "eventos": {
+    "evento-1": {
+      "Titulo": "Eruca Sativa",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "cordoba",
+        "lugar": "plaza de la musica"
+      },
+      "images":{
+        "baner":"https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
+        "portada":"https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
+      }
+    }
+  }
+}
