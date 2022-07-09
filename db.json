@@ -16,26 +16,36 @@
       "postId": 1
     }
   ],
-  
   "categorias": [
     "Teatro",
     "Recitales",
     "Fiestas",
     "Conferencias"
   ],
-
-  "eventos": {
-    "evento-1": {
-      "Titulo": "Eruca Sativa",
+  "eventos": [
+    {
+      "titulo": "Eruca Sativa",
       "ubicacion": {
         "pais": "argentina",
         "provincia": "cordoba",
         "lugar": "plaza de la musica"
       },
-      "images":{
-        "baner":"https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
-        "portada":"https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
+      "images": {
+        "baner": "https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
+        "portada": "https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
+      }
+    },
+    {
+      "titulo": "Abel Pintos en Plaza de la Musica",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "cordoba",
+        "lugar": "plaza de la musica"
+      },
+      "images": {
+        "baner": "https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
+        "portada": "https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
       }
     }
-  }
+  ]
 }
