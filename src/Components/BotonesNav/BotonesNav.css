@@ -1,0 +1,31 @@
+:root {
+    --main-oranger: #FF7600;
+  }
+
+.btn-iniciar-sesion{
+    color: white;
+    background-color: var(--main-oranger);
+}
+.btn-iniciar-sesion:hover{
+    background-color: #c85d00;
+    color: white;
+}
+.btn-iniciar-sesion:focus{
+    border: solid var(--main-oranger);
+    box-shadow: 0.3rem var(--main-oranger);
+}
+
+.btn-crear-cuenta{
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-crear-cuenta:hover{
+    background-color: white;
+}
+
+@media (max-width: 992px) {
+    .btn-crear-cuenta{
+        margin-top: 0.5rem;
+    }
+  }

@@ -1,0 +1,35 @@
+:root {
+    --main-oranger: #FF7600;
+  }
+
+.hover-nav:hover{
+    background-color: var(--main-oranger);
+    border-radius: 0.5rem;
+    transition-duration: 0.5s;
+    transition-timing-function: 1s; 
+}
+
+.dropdown-item:hover{
+  background-color: var(--main-oranger);
+  color: white;
+}
+
+.boton-lupa{
+  position: relative;
+  width: 3.4rem;
+  height: 2.5rem;
+}
+
+.lupa-icon-2{
+  position: absolute;
+  color: rgb(149, 149, 149);
+  bottom: 20%;
+}
+
+.menu-categorias{
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: solid var(--main-oranger);
+  /* background-color: var(--main-oranger); */
+}
+
