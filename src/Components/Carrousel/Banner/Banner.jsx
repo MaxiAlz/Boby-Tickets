@@ -26,7 +26,7 @@ recorrerEventos()
   return (
     <div className="carousel-item active">
       {eventos.map(evento => {
-        <img src={""} className="d-block w-100" alt={evento.titulo} />
+        <img src={""} className="d-block w-100" alt={""} />
       })}
     </div>
 
