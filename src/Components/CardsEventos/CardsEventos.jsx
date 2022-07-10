@@ -23,9 +23,7 @@ const CardsEventos = () => {
   
   return (
     <>
-    <div>
-      
-    </div>
+
     </>
   )
 }
