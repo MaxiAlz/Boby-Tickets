@@ -25,8 +25,8 @@ const Carrousel = () => {
     getEventos();
   }, []);
 
-  eventos.slice(1,eventos.length).map(evento => console.log(evento.images.banner))
-  { eventos.slice(1, eventos.length).forEach(evento => console.log(evento.titulo)) }
+  // eventos.slice(1,eventos.length).map(evento => console.log(evento.images.banner))
+  // { eventos.slice(1, eventos.length).forEach(evento => console.log(evento.titulo)) }
   return (
     <>
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
