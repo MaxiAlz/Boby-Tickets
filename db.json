@@ -28,23 +28,55 @@
       "ubicacion": {
         "pais": "argentina",
         "provincia": "cordoba",
+        "departamento": "capital",
+        "localidad": "centro",
         "lugar": "plaza de la musica"
       },
       "images": {
-        "baner": "https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
-        "portada": "https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
+        "banner": "https://revistarandom.com/wp-content/uploads/2018/12/slider-eruca-sativa.jpg",
+        "post": "https://autoentrada-com-uploads.ticketplus.global/images/thumbs/be0c6ebefec3bae671d9-eruca_sativa.jpg?1656695697"
       }
     },
     {
-      "titulo": "Abel Pintos en Plaza de la Musica",
+      "titulo": "Abel Pintos en Mar del Plata",
       "ubicacion": {
         "pais": "argentina",
-        "provincia": "cordoba",
+        "provincia": "Buenos Aires",
+        "departamento":"Mar del Plata",
+        "localidad":"",
         "lugar": "plaza de la musica"
       },
       "images": {
-        "baner": "https://espectaculo-cordoba.com.ar/wp-content/uploads/2021/11/feed.jpeg",
-        "portada": "https://primitivosr.com/wp-content/uploads/2018/04/ERUCA-SATIVA-LOGO-2017-1-1024x271.jpg"
+        "banner": "https://static6.ticketek.com.ar/cms_static/sites/default/files/images/show-header/960x400ticketek_mesa-de-trabajo-1.png",
+        "post": "https://pbs.twimg.com/profile_images/1516714530549628932/Y4Hvy4lr_400x400.jpg"
+      }
+    },
+    {
+      "titulo": "Tiago PZK en Movistar Arena",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "Mendoza",
+        "departamento":"capital",
+        "localidad":"",
+        "lugar": "Movistar Arena"
+      },
+      "images": {
+        "banner": "https://backend.movistararena.com.ar/wp-content/uploads/2022/06/780x400_TIAGOmova.png",
+        "post": "https://media.cdn.eldestapeweb.com/eldestape/062022/1654530775903/Untitled.webp?cw=1080&ch=1080&extw=png"
+      }
+    },
+    {
+      "titulo": "Soy Rada - Revuelto",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "cordoba",
+        "departamento":"Rio Cuarto",
+        "localidad":"",
+        "lugar": "teatro del colono"
+      },
+      "images": {
+        "banner": "",
+        "post": "https://autoentrada-com-uploads.ticketplus.global/images/thumbs/8dfaa4fab85a0d4b0381-IMG-20220315-WA0059.jpg?1647432311"
       }
     }
   ]
