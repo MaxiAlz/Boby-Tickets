@@ -1,31 +1,12 @@
-import React, { useState, useEffect } from 'react'
-import Banner from './Banner/Banner'
-
+import React,{ useState} from 'react'
 // css
 import './Carrousel.css'
+//CONSULTAR: HAY ALGUNA FORMA DE QUE LA IMAGEN SE VAYA ACOMODANDO SOLA EN EL CENTRO?
+const Carrousel = ({eventos, isLoading}) => {
+  // console.log(eventos);
+  // console.log(isLoading);
 
-const Carrousel = () => {
-
-  const [eventos, setEventos] = useState([])
-  const [isLoding, setIsLoding] = useState(false)
-
-  const getEventos = async () => {
-    try {
-      const response = await fetch('http://localhost:5000/eventos')
-      const eventosdb = await response.json();
-      setEventos(eventosdb)
-      setIsLoding(!isLoding)
-
-    } catch (error) {
-      console.warn(error)
-    }
-  }
-
-  useEffect(() => {
-    getEventos();
-  }, []);
-
-  // eventos.slice(1,eventos.length).map(evento => console.log(evento.images.banner))
+  eventos.slice(1,eventos.length).map(evento => console.log(evento.images.banner))
   // { eventos.slice(1, eventos.length).forEach(evento => console.log(evento.titulo)) }
   return (
     <>
@@ -37,25 +18,18 @@ const Carrousel = () => {
         </div>
         <div className="carousel-inner carrousel-styles">
           {
-            isLoding
-              ?
               <>
                 <div className="carousel-item active">
                   <img src={eventos[0].images.banner} class="d-block w-100" alt={eventos[0].titulo} />
                 </div>
-
-                {/* <Banner eventos = { eventos }/> */}
-
                 {
-                  eventos.slice(1,eventos.length).map(evento => {
-                    <div className="carousel-item">
+                  eventos.slice(1,3).map(evento => {
+                    return <div className="carousel-item">
                     <img src={evento.images.banner} class="d-block w-100" alt={evento.titulo} />
                     </div>
                   })
                 }
               </>
-              :
-              <p className='fw-bolder pt-5'>Cargando Datos...</p>
           }
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

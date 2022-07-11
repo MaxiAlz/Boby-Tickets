@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Carrousel from '../Carrousel/Carrousel';
 import CardsEventos from '../CardsEventos/CardsEventos'
+import CarrouselReactBoostrapt from '../CarrouselReactBoostrapt/CarrouselReactBoostrapt';
 // css
 import './Main.css'
 
@@ -26,7 +27,10 @@ const Main = () => {
 
   return (
     <>
-      <Carrousel />
+    {isLoading ?  <Carrousel eventos={eventos} isLoading={isLoading}/> : <p className='pt-5'>Cargando Eventos...</p>} 
+    {/* {isLoading ?  <CarrouselReactBoostrapt eventos={eventos} isLoading={isLoading} /> : <p className='pt-5'>Cargando Eventos...</p>}  */}
+      
+
       <div className='container d-flex justify-content-center'>
       {
         isLoading ?  eventos.map(evento =>  <CardsEventos evento={evento} /> ) : <p className='pt-5'>Cargando Eventos...</p>
