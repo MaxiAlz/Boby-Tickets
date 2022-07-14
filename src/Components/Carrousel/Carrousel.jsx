@@ -3,11 +3,6 @@ import React,{ useState} from 'react'
 import './Carrousel.css'
 //CONSULTAR: HAY ALGUNA FORMA DE QUE LA IMAGEN SE VAYA ACOMODANDO SOLA EN EL CENTRO?
 const Carrousel = ({eventos, isLoading}) => {
-  // console.log(eventos);
-  // console.log(isLoading);
-
-  eventos.slice(1,eventos.length).map(evento => console.log(evento.images.banner))
-  // { eventos.slice(1, eventos.length).forEach(evento => console.log(evento.titulo)) }
   return (
     <>
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
