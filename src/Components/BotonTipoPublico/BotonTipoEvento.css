@@ -1,0 +1,14 @@
+:root {
+    --main-oranger: #FF7600;
+    --green-entradas: rgb(14, 193, 14);
+}
+
+.tipoEvento{
+    position: absolute;
+    background-color: var(--main-oranger);
+    border-radius: 50rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    height: 1.5rem;
+    width: 3.5rem;
+}

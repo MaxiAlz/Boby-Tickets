@@ -35,49 +35,197 @@
       "images": {
         "banner": "https://revistarandom.com/wp-content/uploads/2018/12/slider-eruca-sativa.jpg",
         "post": "https://autoentrada-com-uploads.ticketplus.global/images/thumbs/be0c6ebefec3bae671d9-eruca_sativa.jpg?1656695697"
-      }
+      },
+      "entradas": [
+        {
+          "general": {
+            "precio": 800,
+            "cantidad": 0,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "campo": {
+            "precio": 1000,
+            "cantidad": 0,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 800,
+            "cantidad": 0,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "Power trio mas potente de cordoba, presentando su nuevo disco. Evento Para toda la familia.",
+      "tipoEvento": "+18"
     },
     {
       "titulo": "Abel Pintos en Mar del Plata",
       "ubicacion": {
         "pais": "argentina",
         "provincia": "Buenos Aires",
-        "departamento":"Mar del Plata",
-        "localidad":"",
+        "departamento": "Mar del Plata",
+        "localidad": "",
         "lugar": "plaza de la musica"
       },
       "images": {
         "banner": "https://static6.ticketek.com.ar/cms_static/sites/default/files/images/show-header/960x400ticketek_mesa-de-trabajo-1.png",
         "post": "https://pbs.twimg.com/profile_images/1516714530549628932/Y4Hvy4lr_400x400.jpg"
-      }
+      },
+      "entradas": [
+        {
+          "campo": {
+            "precio": 1000,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 800,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "Abel Pintos vuelve a Mar del Plata Luego de 3 años",
+      "tipoEvento": "ATP"
     },
     {
       "titulo": "Tiago PZK en Movistar Arena",
       "ubicacion": {
         "pais": "argentina",
         "provincia": "Mendoza",
-        "departamento":"capital",
-        "localidad":"",
+        "departamento": "capital",
+        "localidad": "",
         "lugar": "Movistar Arena"
       },
       "images": {
         "banner": "https://backend.movistararena.com.ar/wp-content/uploads/2022/06/780x400_TIAGOmova.png",
         "post": "https://media.cdn.eldestapeweb.com/eldestape/062022/1654530775903/Untitled.webp?cw=1080&ch=1080&extw=png"
-      }
+      },
+      "entradas": [
+        {
+          "campo": {
+            "precio": 6523,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 8569,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "El artista de trap mas escuchado del momento, realiza su gura mundial y aterriza en mendoza.",
+      "tipoEvento": "ATP"
     },
     {
       "titulo": "Soy Rada - Revuelto",
       "ubicacion": {
         "pais": "argentina",
         "provincia": "cordoba",
-        "departamento":"Rio Cuarto",
-        "localidad":"",
+        "departamento": "Rio Cuarto",
+        "localidad": "",
         "lugar": "teatro del colono"
       },
       "images": {
         "banner": "",
         "post": "https://autoentrada-com-uploads.ticketplus.global/images/thumbs/8dfaa4fab85a0d4b0381-IMG-20220315-WA0059.jpg?1647432311"
-      }
+      },
+      "entradas": [
+        {
+          "campo": {
+            "precio": 8956,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 3215,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "vip": {
+            "precio": 56985,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "Todo el humor y la musica en un solo lugar, Radagast ah ganado popularidad en los ultimos años por brindar unos de los mejores espectaculos de tipo musical y humor a la vcez",
+      "tipoEvento": "+21"
     }
   ]
 }
