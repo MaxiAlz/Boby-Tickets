@@ -4,7 +4,7 @@ import Main from '../Components/Main/Main'
 function Home() {
   return (
     <>
-    {/* <Main /> */}
+    <Main />
     </>
   )
 }
