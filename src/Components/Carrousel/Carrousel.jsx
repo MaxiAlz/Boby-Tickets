@@ -2,25 +2,25 @@ import React,{ useState} from 'react'
 // css
 import './Carrousel.css'
 //CONSULTAR: HAY ALGUNA FORMA DE QUE LA IMAGEN SE VAYA ACOMODANDO SOLA EN EL CENTRO?
-const Carrousel = ({eventos, isLoading}) => {
+const Carrousel = ({eventos}) => {
   return (
     <>
-      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide carrousel-styles" data-bs-ride="carousel ">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div className="carousel-inner carrousel-styles">
+        <div className="carousel-inner">
           {
               <>
                 <div className="carousel-item active">
-                  <img src={eventos[0].images.banner} class="d-block w-100" alt={eventos[0].titulo} />
+                  <img src={eventos[0].images.banner} class="d-block w-100" alt={eventos[0].titulo} className="carrousel-styles"/>
                 </div>
                 {
                   eventos.slice(1,3).map(evento => {
                     return <div className="carousel-item">
-                    <img src={evento.images.banner} class="d-block w-100" alt={evento.titulo} />
+                    <img src={evento.images.banner} class="d-block w-100" alt={evento.titulo} className="carrousel-styles"/>
                     </div>
                   })
                 }

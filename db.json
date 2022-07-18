@@ -24,6 +24,7 @@
   ],
   "eventos": [
     {
+      "id":1,
       "titulo": "Eruca Sativa",
       "ubicacion": {
         "pais": "argentina",
@@ -38,52 +39,49 @@
       },
       "entradas": [
         {
-          "general":{
-            "precio":800,
-            "cantidad":0,
-            "ubicacion":{
+          "general": {
+            "precio": 800,
+            "cantidad": 0,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "campo":{
-            "precio":1000,
-            "cantidad":0,
-            "ubicacion":{
+          "campo": {
+            "precio": 1000,
+            "cantidad": 0,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "platea":{
-            "precio":800,
-            "cantidad":0,
-            "ubicacion":{
+          "platea": {
+            "precio": 800,
+            "cantidad": 0,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         }
       ],
-      "fecha":{
-        "mes":6,
-        "dia":25,
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
         "horario": {
           "hora": 20,
-          "minutos":30
+          "minutos": 30
         }
       },
       "descripcionEvento": "Power trio mas potente de cordoba, presentando su nuevo disco. Evento Para toda la familia.",
-      "tipoEvento":{
-        "atp": true,
-        "+18": false,
-        "+21": false
-      }
+      "tipoEvento": "+18"
     },
     {
+      "id":2,
       "titulo": "Abel Pintos en Mar del Plata",
       "ubicacion": {
         "pais": "argentina",
@@ -98,42 +96,39 @@
       },
       "entradas": [
         {
-          "campo":{
-            "precio":1000,
-            "cantidad":1000,
-            "ubicacion":{
+          "campo": {
+            "precio": 1000,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "platea":{
-            "precio":800,
-            "cantidad":1000,
-            "ubicacion":{
+          "platea": {
+            "precio": 800,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         }
       ],
-      "fecha":{
-        "mes":6,
-        "dia":25,
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
         "horario": {
           "hora": 20,
-          "minutos":30
+          "minutos": 30
         }
       },
       "descripcionEvento": "Abel Pintos vuelve a Mar del Plata Luego de 3 años",
-      "tipoEvento":{
-        "atp": true,
-        "+18": false,
-        "+21": false
-      }
+      "tipoEvento": "ATP"
     },
     {
+      "id":3,
       "titulo": "Tiago PZK en Movistar Arena",
       "ubicacion": {
         "pais": "argentina",
@@ -148,42 +143,39 @@
       },
       "entradas": [
         {
-          "campo":{
-            "precio":6523,
-            "cantidad":1000,
-            "ubicacion":{
+          "campo": {
+            "precio": 6523,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "platea":{
-            "precio":8569,
-            "cantidad":1000,
-            "ubicacion":{
+          "platea": {
+            "precio": 8569,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         }
       ],
-      "fecha":{
-        "mes":6,
-        "dia":25,
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
         "horario": {
           "hora": 20,
-          "minutos":30
+          "minutos": 30
         }
       },
       "descripcionEvento": "El artista de trap mas escuchado del momento, realiza su gura mundial y aterriza en mendoza.",
-      "tipoEvento":{
-        "atp": true,
-        "+18": false,
-        "+21": false
-      }
+      "tipoEvento": "ATP"
     },
     {
+      "id":4,
       "titulo": "Soy Rada - Revuelto",
       "ubicacion": {
         "pais": "argentina",
@@ -198,58 +190,150 @@
       },
       "entradas": [
         {
-          "campo":{
-            "precio":8956,
-            "cantidad":1000,
-            "ubicacion":{
+          "campo": {
+            "precio": 8956,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "platea":{
-            "precio":3215,
-            "cantidad":1000,
-            "ubicacion":{
+          "platea": {
+            "precio": 3215,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         },
         {
-          "vip":{
-            "precio":56985,
-            "cantidad":1000,
-            "ubicacion":{
+          "vip": {
+            "precio": 56985,
+            "cantidad": 1000,
+            "ubicacion": {
               "fila": "",
-              "columna":""
+              "columna": ""
             }
           }
         }
       ],
-      "fecha":{
-        "mes":6,
-        "dia":25,
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
         "horario": {
           "hora": 20,
-          "minutos":30
-        }
-      },
-      "fecha":{
-        "mes":6,
-        "dia":25,
-        "horario": {
-          "hora": 20,
-          "minutos":30
+          "minutos": 30
         }
       },
       "descripcionEvento": "Todo el humor y la musica en un solo lugar, Radagast ah ganado popularidad en los ultimos años por brindar unos de los mejores espectaculos de tipo musical y humor a la vcez",
-      "tipoEvento":{
-        "atp": false,
-        "+18": true,
-        "+21": false
-      }
+      "tipoEvento": "+21"
+    },
+    {
+      "id":5,
+      "titulo": "Soy Rada - Revuelto",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "cordoba",
+        "departamento": "Rio Cuarto",
+        "localidad": "",
+        "lugar": "teatro del colono"
+      },
+      "images": {
+        "banner": "",
+        "post": "https://autoentrada-com-uploads.ticketplus.global/images/thumbs/8dfaa4fab85a0d4b0381-IMG-20220315-WA0059.jpg?1647432311"
+      },
+      "entradas": [
+        {
+          "campo": {
+            "precio": 8956,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 3215,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "vip": {
+            "precio": 56985,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "Todo el humor y la musica en un solo lugar, Radagast ah ganado popularidad en los ultimos años por brindar unos de los mejores espectaculos de tipo musical y humor a la vcez",
+      "tipoEvento": "+21"
+    },
+    {
+      "id":6,
+      "titulo": "Tiago PZK en Movistar Arena",
+      "ubicacion": {
+        "pais": "argentina",
+        "provincia": "Mendoza",
+        "departamento": "capital",
+        "localidad": "",
+        "lugar": "Movistar Arena"
+      },
+      "images": {
+        "banner": "https://backend.movistararena.com.ar/wp-content/uploads/2022/06/780x400_TIAGOmova.png",
+        "post": "https://media.cdn.eldestapeweb.com/eldestape/062022/1654530775903/Untitled.webp?cw=1080&ch=1080&extw=png"
+      },
+      "entradas": [
+        {
+          "campo": {
+            "precio": 6523,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        },
+        {
+          "platea": {
+            "precio": 8569,
+            "cantidad": 1000,
+            "ubicacion": {
+              "fila": "",
+              "columna": ""
+            }
+          }
+        }
+      ],
+      "fecha": {
+        "mes": 6,
+        "dia": 25,
+        "horario": {
+          "hora": 20,
+          "minutos": 30
+        }
+      },
+      "descripcionEvento": "El artista de trap mas escuchado del momento, realiza su gura mundial y aterriza en mendoza.",
+      "tipoEvento": "ATP"
     }
   ]
 }

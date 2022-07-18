@@ -1,12 +1,64 @@
-.cardContainer{
-    position: relative;
-    
+:root {
+  --main-oranger: #FF7600;
+  --green-entradas: rgb(14, 193, 14);
 }
-.textoCard{
-    position: absolute;
-   bottom: 2rem;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.546), rgb(0, 0, 0));
-   
+
+.cardContainer {
+  position: relative;
+  width: 18rem;
+
 }
-.gradientImg{
+
+.hovera:hover {
+  box-shadow: 0rem 0.3rem 0.8rem var(--main-oranger);
 }
+
+.textoCard {
+  position: absolute;
+  bottom: 2.4rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.551), rgb(0, 0, 0));
+  height: 4rem;
+
+}
+
+.btnPrecioEntradas {
+  color: white;
+  background-color: var(--main-oranger);
+  border-radius: 0;
+}
+
+.btnPrecioEntradas:hover {
+  background-color: var(--green-entradas);
+  color: white;
+  box-shadow: 0.3rem var(--main-oranger);
+}
+
+.btnPrecioEntradas:focus {
+  border: solid var(--main-oranger);
+  box-shadow: 0.3rem var(--main-oranger);
+}
+
+@media (max-width: 576px) {
+  .cardContainer {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .cardContainer {
+    width: 18rem;
+  }
+}
+
+/* @media (maxi-width: 1400px) {
+    .carrousel-styles{
+      width: 100%;
+      height: 24rem;
+    }
+  } */

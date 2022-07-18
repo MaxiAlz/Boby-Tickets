@@ -26,9 +26,10 @@ const Main = () => {
   return (
     <>
     {isLoading ?  <Carrousel eventos={eventos} isLoading={isLoading}/> : <p className='pt-5'>Cargando Eventos...</p>} 
-      <div className='container d-flex justify-content-center'>
+      <div className='container-fluid d-flex justify-content-center flex-wrap'>
       {
-        isLoading ?  eventos.map(evento =>  <CardsEventos evento={evento} /> ) : <p className='pt-5'>Cargando Eventos...</p>
+        isLoading ?  
+        eventos.map(evento =>  <CardsEventos evento={evento} /> ) : <p className='pt-5'>Cargando Eventos...</p>
       }
       </div>
     </>
