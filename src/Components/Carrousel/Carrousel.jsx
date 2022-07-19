@@ -1,4 +1,4 @@
-import React,{ useState} from 'react'
+import React from 'react'
 // css
 import './Carrousel.css'
 //CONSULTAR: HAY ALGUNA FORMA DE QUE LA IMAGEN SE VAYA ACOMODANDO SOLA EN EL CENTRO?
@@ -7,9 +7,9 @@ const Carrousel = ({eventos}) => {
     <>
       <div id="carouselExampleIndicators" className="carousel slide carrousel-styles" data-bs-ride="carousel ">
         <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active carrouselIndicators" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className='carrouselIndicators'></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" className='carrouselIndicators'></button>
         </div>
         <div className="carousel-inner">
           {
