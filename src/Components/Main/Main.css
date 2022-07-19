@@ -1,3 +1,9 @@
 :root {
     --main-oranger: #FF7600;
   }
+
+  /* body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */

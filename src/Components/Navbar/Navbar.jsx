@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="asd">
-          <img src={Logo} style={{ width: 120 }} alt={Logo} />
+          <img src={Logo} style={{ width: 180 }} alt={Logo} />
         </a>
 
         {/* boton buscar */}
